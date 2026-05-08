@@ -18,21 +18,21 @@ Si tienes dudas, puedes interactuar con la webapp based in London que sí que ti
 
 Intenta que la salida del programa por CLI sea lo más parecida posible a las imágenes que se proporcionan. Cada una de ellas se corresponde con una de las historias de usuario que se detallan en los epígrafes siguientes.
 
-!["Historias de usuario"](./salida_CLI/ui_01.png "sneaker info ASCII CLI")
+!["Historias de usuario 1"](./salida_CLI/ui_01.png "sneaker info ASCII CLI")
 
-!["Historias de usuario"](./salida_CLI/ui_02.png "all bids and asks CLI")
+!["Historias de usuario 2"](./salida_CLI/ui_02.png "all bids and asks CLI")
 
-!["Historias de usuario"](./salida_CLI/ui_03.png "sneaker max ask info CLI")
+!["Historias de usuario 3"](./salida_CLI/ui_03.png "sneaker max ask info CLI")
 
-!["Historias de usuario"](./salida_CLI/ui_04.png "sneaker min bid info CLI")
+!["Historias de usuario 4"](./salida_CLI/ui_04.png "sneaker min bid info CLI")
 
-!["Historias de usuario"](./salida_CLI/ui_05.png "All sales CLI")
+!["Historias de usuario 5"](./salida_CLI/ui_05.png "All sales CLI")
 
-!["Historias de usuario"](./salida_CLI/ui_06.png "sneaker info last sale CLI")
+!["Historias de usuario 4"](./salida_CLI/ui_06.png "sneaker info last sale CLI")
 
-!["Historias de usuario"](./salida_CLI/ui_07.png "All sales, bids, min bid, max ask size 9.5 CLI")
+!["Historias de usuario 5"](./salida_CLI/ui_07.png "All sales, bids, min bid, max ask size 9.5 CLI")
 
-!["Historias de usuario"](./salida_CLI/ui_08.png "sneaker info size 9.5 CLI")
+!["Historias de usuario 6"](./salida_CLI/ui_08.png "sneaker info size 9.5 CLI")
 
 
 ## Diagrama de clases UML / Arquitectura de la app.
