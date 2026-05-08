@@ -4,7 +4,7 @@
 
 
 # Folder view configuration files
-.vscode
+./vscode
 .DS_Store
 Desktop.ini
 
