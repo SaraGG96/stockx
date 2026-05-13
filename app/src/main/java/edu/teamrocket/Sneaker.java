@@ -33,4 +33,16 @@ public class Sneaker implements Item {
     public String toString() {
         return this.name + "\n\t\t" + this.style;
     }
+
+    public void add(Offer offer) {
+        if (offer instanceof Bid) {
+            this.bid = offer.value();
+        } else if (offer instanceof Ask) {
+            this.ask = offer.value();
+        } else if (offer instanceof Sale) {
+            this.sale = offer.value();
+        }
+
+        
+    }
 }
