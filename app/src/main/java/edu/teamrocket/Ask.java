@@ -1,11 +1,11 @@
 package edu.teamrocket;
 
-public class Bid implements Offer {
+public class Ask implements Offer {
 
     private String size;
     private Integer bid;
 
-    public Bid(String size, Integer bid) {
+    public Ask(String size, Integer bid) {
         this.size = size;
         this.bid = bid;
     }
@@ -30,7 +30,7 @@ public class Bid implements Offer {
 
     @Override
     public String toString() {
-        return "Bid: " + this.size() + " for $" + this.value();
+        return "Ask: " + this.size() + " for $" + this.value();
     }
-
+    
 }
