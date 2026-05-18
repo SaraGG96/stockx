@@ -1,4 +1,5 @@
 package edu.teamrocket;
+import java.util.ArrayList;
 import java.util.List;
 
 public class AndCriteria implements Criteria {
@@ -12,7 +13,7 @@ public class AndCriteria implements Criteria {
     }
 
     public List<Offer> checkCriteria(Item item) {
-        List<Offer> offers = criteria.checkCriteria(item);
+        List<Offer> offers = new ArrayList<>(criteria.checkCriteria(item));
         List<Offer> otherOffers = otherCriteria.checkCriteria(item);
         offers.retainAll(otherOffers);
         return offers;
