@@ -1,4 +1,6 @@
 
+package edu.teamrocket;
+
 /**
  * StockX nació en Detroit, y allí siguen haciendo
  * las cosas a la manera tradicional, 
@@ -15,7 +17,6 @@
  * la webapp based in London que sí que tiene (G)UI
  * https://stockx.com/air-jordan-1-retro-high-dark-mocha
  */
-
 
 public class Stockx {
 

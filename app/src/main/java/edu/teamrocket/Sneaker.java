@@ -1,3 +1,7 @@
+package edu.teamrocket;
+import java.util.ArrayList;
+import java.util.List;
+
 public class Sneaker implements Item {
 
     private String style;
@@ -5,6 +9,7 @@ public class Sneaker implements Item {
     private int sale;
     private int ask;
     private int bid;
+    private List<Offer> offers;
 
     public Sneaker(String style, String name) {
         this.style = style;
@@ -12,37 +17,51 @@ public class Sneaker implements Item {
         this.sale = 0;
         this.ask = 0;
         this.bid = 0;
+        this.offers = new ArrayList<>();
     }
 
     @Override
     public int getBid() {
-        return this.bid;
+        return bid;
     }
 
     @Override
     public int getAsk() {
-        return this.ask;
+        return ask;
     }
 
     @Override
     public int getSale() {
-        return this.sale;
+        return sale;
+    }
+
+    @Override
+    public void setBid(int bid) {
+        this.bid = bid;
+    }
+
+    @Override
+    public void setAsk(int ask) {
+        this.ask = ask;
+    }
+
+    @Override
+    public void setSale(int sale) {
+        this.sale = sale;
+    }
+
+    @Override
+    public void add(Offer offer) {
+        offers.add(offer);
+    }
+
+    @Override
+    public List<Offer> offers() {
+        return new ArrayList<>(offers);
     }
 
     @Override
     public String toString() {
-        return this.name + "\n\t\t" + this.style;
-    }
-
-    public void add(Offer offer) {
-        if (offer instanceof Bid) {
-            this.bid = offer.value();
-        } else if (offer instanceof Ask) {
-            this.ask = offer.value();
-        } else if (offer instanceof Sale) {
-            this.sale = offer.value();
-        }
-
-        
+        return name + "\n\t\t" + style;
     }
 }
