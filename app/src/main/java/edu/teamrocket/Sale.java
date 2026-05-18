@@ -1,6 +1,6 @@
 package edu.teamrocket;
 
-public class Sale {
+public class Sale implements Offer {
 
     private String size;
     private Integer bid;
